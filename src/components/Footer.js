@@ -9,25 +9,27 @@ const styles = {
 };
 export default function Footer() {
     return (
-        <div>
+        <footer className="footer">
             <div>
-                <a href="https://github.com/Kuleenabinoy">
-                    <img
-                        style={styles.logo}
-                        src={require("./assets/logos/github-logo.png")}
-                        alt="github"
-                        className="logo"
-                    ></img>
-                </a>
-                <a href="https://www.linkedin.com/in/kuleenabinoy/">
-                    <img
-                        style={styles.logo}
-                        src={require("./assets/logos/linkedin-logo.png")}
-                        alt="github"
-                        className="logo"
-                    ></img>
-                </a>
+                <div>
+                    <a href="https://github.com/Kuleenabinoy">
+                        <img
+                            style={styles.logo}
+                            src={require("./assets/logos/github-logo.png")}
+                            alt="github"
+                            className="logo"
+                        ></img>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kuleenabinoy/">
+                        <img
+                            style={styles.logo}
+                            src={require("./assets/logos/linkedin-logo.png")}
+                            alt="github"
+                            className="logo"
+                        ></img>
+                    </a>
+                </div>
             </div>
-        </div>
+        </footer>
     );
 }

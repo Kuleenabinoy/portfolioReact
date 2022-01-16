@@ -1,18 +1,12 @@
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
-const styles = {
-    contactform: {
-        margin: 40,
-    },
-    formControl: {
-        margin: 20,
-    },
-    formlabel: {
-        margin: 20,
-    },
-};
 
 export default function Contact() {
+    // const styles = {
+    //     submitbtn: {
+    //         margin: 30,
+    //     },
+    // };
     const [formState, setFormState] = useState({ name: "", email: "", message: "" });
 
     const [errorMessage, setErrorMessage] = useState("");
@@ -45,58 +39,89 @@ export default function Contact() {
         e.preventDefault();
     }
     return (
-        <div>
-            <section className="container">
-                <h2 className="top-title">Contact Form.. </h2>
-                <form style={styles.contactform} className="contactform">
-                    <label style={styles.formlabel} className="formlabel">
-                        Name:
-                    </label>
-                    <input
-                        type="text"
-                        className="formcontol"
-                        name="name"
-                        defaultValue={name}
-                        onChange={handleChange}
-                    ></input>
-                    <br></br>
-                    <label style={styles.formlabel} className="formlabel">
-                        Email:
-                    </label>
-                    <input
-                        type="text"
-                        name="email"
-                        defaultValue={email}
-                        onBlur={handleChange}
-                        className="formcontol"
-                    ></input>
-
-                    <br />
-                    <label style={styles.formlabel} className="formlabel">
-                        Message:
-                    </label>
-                    <input
-                        type="textarea"
-                        name="message"
-                        defaultValue={message}
-                        onChange={handleChange}
-                        className="formcontrol"
-                        rows="7"
-                    ></input>
-
-                    <br />
+        <section>
+            <div className="container">
+                <h2 className="page-header">Contact Me</h2>
+            </div>
+            <div>
+                <form id="contact-form">
+                    <div>
+                        <label>Name:</label>
+                        <br></br>
+                        <input type="text" defaultValue={name} onBlur={handleChange} name="Name" />
+                    </div>
+                    <div>
+                        <label>Email address:</label>
+                        <br></br>
+                        <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+                    </div>
+                    <div>
+                        <label>Message:</label>
+                        <br></br>
+                        <textarea name="Message" defaultValue={message} onBlur={handleChange} rows="5" />
+                    </div>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
                     <button type="submit" onSubmit={handleSubmit}>
                         Submit
                     </button>
-                    <div>
-                        {errorMessage && (
-                            <div>
-                                <p className="error-text">{errorMessage}</p>
-                            </div>
-                        )}
-                    </div>
                 </form>
-            </section>
-        </div>
+            </div>
+        </section>
     );
+    //     <div>
+    //         <section className="container">
+    //             <h2 className="top-title">Contact Form.. </h2>
+
+    //             <form className="contactform">
+    //                 <div>
+    //                     <label className="formlabel">Name:</label>
+    //                     <input
+    //                         type="text"
+    //                         className="formcontrol"
+    //                         name="name"
+    //                         defaultValue={name}
+    //                         onChange={handleChange}
+    //                     ></input>
+    //                 </div>
+    //                 <div>
+    //                     {" "}
+    //                     <label className="formlabel">Email:</label>
+    //                     <input
+    //                         type="text"
+    //                         name="email"
+    //                         defaultValue={email}
+    //                         onBlur={handleChange}
+    //                         className="formcontrol"
+    //                     ></input>
+    //                 </div>
+    //                 <div>
+    //                     <label className="formlabel">Message:</label>
+    //                     <textarea
+    //                         name="message"
+    //                         defaultValue={message}
+    //                         onChange={handleChange}
+    //                         className="formcontrol"
+    //                         rows="5"
+    //                     />
+    //                 </div>
+    //                 <div>
+    //                     <button style={styles.submitbtn} className="submitbtn" type="submit" onSubmit={handleSubmit}>
+    //                         Submit
+    //                     </button>
+    //                 </div>
+    //                 <div>
+    //                     {errorMessage && (
+    //                         <div>
+    //                             <p className="error-text">{errorMessage}</p>
+    //                         </div>
+    //                     )}
+    //                 </div>
+    //             </form>
+    //         </section>
+    //     </div>
+    // );
 }
