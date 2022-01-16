@@ -7,7 +7,7 @@ const styles = {
 export default function About() {
     return (
         <section className="container">
-            <h2 class="top-title">Kuleena Binoy</h2>
+            <h2 className="top-title">Kuleena Binoy</h2>
             <hr></hr>
             <div>
                 <img style={styles.avatar} id="avatar" src={require("../assets/images/imageme.jpg")} alt="avatar" />
