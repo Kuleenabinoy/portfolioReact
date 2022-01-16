@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Tech Blog",
+        "image": "https://user-images.githubusercontent.com/86656634/143766012-980b07fe-7f75-4513-9708-832ef6a60696.png",
+        "github": "https://github.com/Kuleenabinoy/Tech-Blog",
+        "deploy": "https://techbloghw01.herokuapp.com/",
+        "topics": "Node.js ,Express.js,MVC,Mysql2,Handlebars,Bcrypt,dotenv"
+    },
+    {
+        "id": 2,
+        "name": "weather Dashboard",
+        "image": "https://user-images.githubusercontent.com/86656634/136651777-3903b138-0ddc-4c38-af32-4d954b070bd6.png",
+        "github": "https://github.com/Kuleenabinoy/weatherDashboard",
+        "deploy": "https://kuleenabinoy.github.io/weatherDashboard/",
+        "topics": "moment.js, javascript, jQuery, localStorage, API"
+    },
+    {
+        "id": 3,
+        "name": "Rental Bazar",
+        "image": "https://github.com/8nd8/RentalBazaar/blob/main/public/images/Homepage%20screenshot%20-%202.JPG",
+        "github": "https://github.com/Kuleenabinoy/RentalBazaar",
+        "deploy": "https://rentalbazaar.herokuapp.com/",
+        "topics": "node, express, javascript, mysql2, nodemon"
+    },
+    {
+        "id": 4,
+        "name": "Text Editor",
+        "image": "https://user-images.githubusercontent.com/86656634/148852980-f3e6a6b1-7b94-419e-91ab-8c1150658222.png",
+        "github": "https://github.com/Kuleenabinoy/TextEditor",
+        "deploy": "https://jatetexteditor.herokuapp.com/",
+        "topics": "node, express, javascript, mongoDB, mongoose, nodemon,PWA"
+    },
+    {
+        "id": 5,
+        "name": "Note Taker",
+        "image": "https://user-images.githubusercontent.com/86656634/139968730-bc63ef12-0eba-4bb1-9e57-20b5c9369b2c.png",
+        "github": "https://github.com/Kuleenabinoy/Note-Taker",
+        "deploy": "https://note-taker-homeworkweek11.herokuapp.com/",
+        "topics": "HTML,CSS,Javascript,Nodejs ,Heroku,GitHub"
+    },
+    {
+        "id": 6,
+        "name": "Employee Tracker",
+        "image": "https://user-images.githubusercontent.com/86656634/141666531-abe77a47-8c57-4fd4-8f0b-65db446617d2.png",
+        "github": "https://github.com/Kuleenabinoy/Employee-Tracker",
+        "deploy": "https://watch.screencastify.com/v/B1nBCKlJTJd0pA3rY3O7",
+        "topics": "HTML,CSS,Javascript,Nodejs ,MYSQL,GitHub"
+    }
+]
