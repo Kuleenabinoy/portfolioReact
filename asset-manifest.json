@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.cfe34c3e.css",
-    "main.js": "/portfolio-app/static/js/main.a8feb674.js",
-    "static/js/787.ec5183d7.chunk.js": "/portfolio-app/static/js/787.ec5183d7.chunk.js",
-    "static/media/imageme.jpg": "/portfolio-app/static/media/imageme.7c7b442019669130ac91.jpg",
-    "static/media/kuleena cv.pdf": "/portfolio-app/static/media/kuleena cv.6b71c03ffe68fbd8de7e.pdf",
-    "index.html": "/portfolio-app/index.html",
-    "main.cfe34c3e.css.map": "/portfolio-app/static/css/main.cfe34c3e.css.map",
-    "main.a8feb674.js.map": "/portfolio-app/static/js/main.a8feb674.js.map",
-    "787.ec5183d7.chunk.js.map": "/portfolio-app/static/js/787.ec5183d7.chunk.js.map"
+    "main.css": "/portfolioReact/static/css/main.cfe34c3e.css",
+    "main.js": "/portfolioReact/static/js/main.332fce7d.js",
+    "static/js/787.ec5183d7.chunk.js": "/portfolioReact/static/js/787.ec5183d7.chunk.js",
+    "static/media/imageme.jpg": "/portfolioReact/static/media/imageme.7c7b442019669130ac91.jpg",
+    "static/media/kuleena cv.pdf": "/portfolioReact/static/media/kuleena cv.6b71c03ffe68fbd8de7e.pdf",
+    "index.html": "/portfolioReact/index.html",
+    "main.cfe34c3e.css.map": "/portfolioReact/static/css/main.cfe34c3e.css.map",
+    "main.332fce7d.js.map": "/portfolioReact/static/js/main.332fce7d.js.map",
+    "787.ec5183d7.chunk.js.map": "/portfolioReact/static/js/787.ec5183d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfe34c3e.css",
-    "static/js/main.a8feb674.js"
+    "static/js/main.332fce7d.js"
   ]
 }
